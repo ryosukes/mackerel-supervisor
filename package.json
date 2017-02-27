@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ryosukes/mackerel-supervisor/issues"
   },
-  "homepage": "https://github.com/ryosukes/mackerel-supervisor#readme"
+  "homepage": "https://github.com/ryosukes/mackerel-supervisor#readme",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "sinon": "^2.0.0-pre.6"
+  }
 }
