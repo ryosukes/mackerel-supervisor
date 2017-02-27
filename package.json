@@ -1,0 +1,23 @@
+{
+  "name": "mackerel-supervisor",
+  "version": "0.0.1",
+  "description": "monitoring supervisor status. If the status is not 'RUNNING', this module send alert to mackerel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryosukes/mackerel-supervisor.git"
+  },
+  "keywords": [
+    "mackerel",
+    "supervisor"
+  ],
+  "author": "Ryosuke Sasaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryosukes/mackerel-supervisor/issues"
+  },
+  "homepage": "https://github.com/ryosukes/mackerel-supervisor#readme"
+}
