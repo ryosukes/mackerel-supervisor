@@ -1,6 +1,4 @@
-var shell  = require('shelljs');
-var os     = require('os');
-
+var shell   = require('shelljs');
 var command = shell.exec('sudo supervisorctl status');
 var status  = command.output;
 
