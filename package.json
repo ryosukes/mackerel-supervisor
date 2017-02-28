@@ -22,6 +22,8 @@
   "homepage": "https://github.com/ryosukes/mackerel-supervisor#readme",
   "devDependencies": {
     "ava": "^0.18.2",
+    "os": "^0.1.1",
+    "shelljs": "^0.7.6",
     "sinon": "^2.0.0-pre.6"
   }
 }
