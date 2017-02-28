@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
 var shell   = require('shelljs');
 var command = shell.exec('sudo supervisorctl status');
 var status  = command.stdout;
