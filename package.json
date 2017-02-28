@@ -2,7 +2,9 @@
   "name": "mackerel-supervisor",
   "version": "0.0.1",
   "description": "monitoring supervisor status. If the status is not 'RUNNING', this module send alert to mackerel.",
-  "main": "index.js",
+  "bin": {
+    "monitor-supervisor": "index.js"
+  },
   "scripts": {
     "test": "ava -v"
   },
