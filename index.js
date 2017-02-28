@@ -4,6 +4,4 @@ var status  = command.stdout;
 
 if (status.match(/FATAL/)) {
 	process.exit(1);
-} else {
-	process.exit(0);
 }
