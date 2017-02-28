@@ -1,9 +1,7 @@
 var shell   = require('shelljs');
 var command = shell.exec('sudo supervisorctl status');
-var status  = command.output;
+var status  = command.stdout;
 
-if (status.match(/FATAL/)) {
-	process.exit(3);
-} else {
-	process.exit(0);
+if (status.match(/FATAL|STOPPED|EXITED/)) {
+	process.exit(1);
 }
