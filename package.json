@@ -1,6 +1,6 @@
 {
   "name": "mackerel-supervisor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "monitoring supervisor status. If the status is not 'RUNNING', this module send alert to mackerel.",
   "bin": {
     "monitor-supervisor": "index.js"
